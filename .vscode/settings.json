@@ -5,7 +5,12 @@
         "lib/**/*.jar"
     ],
     "cSpell.words": [
+        "conteudo",
+        "conteudos",
+        "Conteudos",
         "endereco",
-        "IMDB"
+        "IMDB",
+        "saida",
+        "TOPZERA"
     ]
 }
