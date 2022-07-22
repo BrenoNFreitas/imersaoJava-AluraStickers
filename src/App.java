@@ -16,9 +16,12 @@ public class App {
         //ExtratorDeConteudo extrator = new ExtratorDeConteudoIMDB();
         
         //url Nasa
-        String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD-JamesWebbSpaceTelescope";
-        ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
+        //String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD-JamesWebbSpaceTelescope";
+        //ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
         
+        String url = "http://localhost:8080/linguagens";
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoIMDB();
+
         var http = new clienteHttp();
         String json = http.buscaDados(url);
         
@@ -26,7 +29,7 @@ public class App {
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
         var geradora = new GeradoraDeFigurinhas();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
             Conteudo conteudo = conteudos.get(i);
 
             InputStream inputStream = new URL(conteudo.getUrlImagem()).openStream();
