@@ -5,7 +5,7 @@
 
 Projeto desenvolvido pela equipe [Alura](https://www.alura.com.br/sobre) e apresentado na [Imersão Java](https://www.alura.com.br/imersao-java/). Tem como foco em suas aulas iniciais consumir uma API do IMDB e mostrar os top filmes e posteriormente gerar figurinhas (stickers) para o WhatsApp.
 
-## ✏️ Aulas da Imersão
+## ✏️ Aulas da Imersão (18/07 - 22/07)
 
 - `Aula 01` - Consumindo uma API de filmes com Java:
 Na primeira aula, iniciamos o projetos do zero para consumir uma [API de filmes do IMDB](https://imdb-api.com/api) e exibir os filmes mais populares, destacando o Título, Poster e Notas. 

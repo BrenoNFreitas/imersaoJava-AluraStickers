@@ -9,7 +9,7 @@ public class App {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        //fazer uma conexão HTTP e buscar os top 250 filmes
+        //fazer uma conexão HTTP e buscar os conteúdos
         //url filmes
         //String url = "https://imdb-api.com/en/API/Top250Movies/C H A V E(k_0ojt0yvm)"
         //String url = "https://api.mocki.io/v2/549a5d8b";
